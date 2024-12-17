@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="asset/style.css" />
+    <title>Hidden Heaven</title>
+  </head>
+  <body>
+    <section id="header">
+      <a href="#main"
+        ><img
+          src="asset/img/Pink and White Minimalist Initial Makeup Artist Logo.png"
+          alt=""
+          class="logo"
+      /></a>
+        <h1>Hidden Heaven</h1>
+      <nav id="nav">
+        <ul id="navbar">
+          <li><a href="#main" id="home" class="active">Home</a></li>
+          <li><a href="shop.html" id="shop">Popular</a></li>
+          <li><a href="signup/index.html" id="about">Sign In</a></li>
+          <li><a href="contact.html" id="about">Contact</a></li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </nav>
+      <div id="mobile">
+        <a href="cart.html" id="cart"
+          ><i class="fa-solid fa-cart-shopping fa-xxl"></i
+        ></a>
+        <i id="bar" class="fas fa-outdent fa-xl"></i>
+      </div>
+    </section>
+
+    <section id="main">
+      <h4>Start a Journey</h4>
+      <h2>World is very Big</h2>
+      <h1>Explore More</h1>
+      <p>Discover New Horizons, Explore Endless Possibilities!</p>
+      <a href="shop.html" target="_blank"><button>Go</button></a>
+    </section>
+    <!-- feature title -->
+    <section id="title">
+      <h3>Places to covered</h3>
+    </section>
+    <section id="feature" class="section-p1">
+      <div class="fe-box">
+        <img src="asset/img/temple.png" alt="" />
+        <h6>Temple</h6>
+      </div>
+      <div class="fe-box">
+        <img src="asset/img/mass.png" alt="" />
+        <h6>Mosque</h6>
+      </div>
+      <div class="fe-box">
+        <img src="asset/img/church.png" alt="" />
+        <h6>Church</h6> 
+      </div>
+      <div class="fe-box">
+        <img src="asset/img/tourist places 2.png" alt="" />
+        <h6>Historical Places</h6>
+      </div>
+      
+      <div class="fe-box">
+        <img src="asset/img/landmark1.jpg" alt="" />
+        <h6>Landmarks</h6>
+      </div>
+    </section>
+    <!-- pop up -->
+    <!-- Products -->
+    <section id="product-1" class="section-p1">
+      <h2>Most Popular</h2>
+      <p>Top Ten Temples</p>
+      <div class="pro-container">
+    <div class="pro">
+        <img src="asset/img/Temples/Meenakshi,madurai/madhurai meena_2.jpg" alt="" />
+        <div class="dis">
+            <span>Tamilnadu</span>
+            <h5>Meenakshi Temple</h5>
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <h4 style="margin: 0;">Madurai</h4>
+                <button onclick="showInfo1()"  class="info-button1">Info</button>
+            </div>
+        </div>
+    </div>
+    <div class="pro">
+        <img src="asset/img/Temples/ekambareswarar,kanchi/ekmp_1.jpg" alt="" />
+        <div class="dis">
+            <span>Tamilnadu</span>
+            <h5>Ekambaresvarar Temple</h5>
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <h4 style="margin: 0;">Chennai</h4>
+              <button onclick="showInfo2()"  class="info-button2">Info</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pro">
+      <img src="asset/img/Temples/Rameshwaram Temple/rames_2.jpg" alt="" />
+      <div class="dis">
+          <span>Tamilnadu</span>
+          <h5>Rameshwaram temple</h5>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <h4 style="margin: 0;">Rameshwaram</h4>
+            <button onclick="showInfo3()"  class="info-button3">Info</button>
+          </div>
+      </div>
+  </div>
+  <div class="pro">
+    <img src="asset/img/Temples/nagannathaswamy/ngn_5.jpg" alt="" />
+    <div class="dis">
+        <span>Tamilnadu</span>
+        <h5>Nagannathaswamy Temple</h5>
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <h4 style="margin: 0;">keelaperumpallam</h4>
+          <button onclick="showInfo4()"  class="info-button2">Info</button>
+        </div>
+    </div>
+</div>
+<div class="pro">
+  <img src="asset/img/Temples/thanjai,brihadishwarar/thanjai-periya_1.jpg" alt="" />
+  <div class="dis">
+      <span>Tamilnadu</span>
+      <h5>Brihadeeshwarar Temple</h5>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h4 style="margin: 0;">Tanjavur</h4>
+        <button onclick="showInfo5()"  class="info-button2">Info</button>
+      </div>
+  </div>
+</div>
+<div class="pro">
+  <img src="asset/img/Temples/kumari amman Temple/knk_1.jpg" alt="" />
+  <div class="dis">
+      <span>Tamilnadu</span>
+      <h5>Kumari Amman Temple</h5>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h4 style="margin: 0;">Kanyakumari</h4>
+        <button onclick="showInfo6 ()"  class="info-button2">Info</button>
+      </div>
+  </div>
+</div>
+<div class="pro">
+  <img src="asset/img/Temples/mahapalipuram shore/mhpl_2.jfif" alt="" />
+  <div class="dis">
+      <span>Tamilnadu</span>
+      <h5>Mahabalipuram Shore Temple</h5>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h4 style="margin: 0;">Mahabalipuram</h4>
+        <button onclick="showInfo7()"  class="info-button2">Info</button>
+      </div>
+  </div>
+</div>
+<div class="pro">
+  <img src="asset/img/Temples/arunachaleswarar ,thiruvannamalai/aruna_1.jpg" alt="" />
+  <div class="dis">
+      <span>Tamilnadu</span>
+      <h5>Arunachaleswarar Temple</h5>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h4 style="margin: 0;">Tiruvannamalai</h4>
+        <button onclick="showInfo8()"  class="info-button2">Info</button>
+      </div>
+  </div>
+</div>
+<div class="pro">
+  <img src="asset/img/Temples/kapaleeswarar,mylapore/kpl_1.jpg" alt="" />
+  <div class="dis">
+      <span>Tamilnadu</span>
+      <h5>Kapaleeshwarar Temple</h5>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h4 style="margin: 0;">Mylapore</h4>
+        <button onclick="showInfo9()"  class="info-button2">Info</button>
+      </div>
+  </div>
+</div>
+<div class="pro">
+  <img src="asset/img/Temples/natarajar temple,chidambaram/ntr_1.jpg" alt="" />
+  <div class="dis">
+      <span>Tamilnadu</span>
+      <h5>Thillai Natarajar Temple</h5>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h4 style="margin: 0;">Chidambaram</h4>
+        <button onclick="showInfo10()"  class="info-button2">Info</button>
+      </div>
+  </div>
+</div>
+<div class="pro">
+  <img src="asset/img/rgn tem.jpg" alt="" />
+  <div class="dis">
+      <span>Tamilnadu</span>
+      <h5>Sri Ranganathaswamy Temple</h5>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h4 style="margin: 0;">Srirangam</h4>
+        <button onclick="showInfo11()"  class="info-button2">Info</button>
+      </div>
+  </div>
+</div>
+
+<div class="pro">
+  <img src="asset/img/Temples/mannai peiya kovil/mng 4.jpg" alt="" />
+  <div class="dis">
+      <span>Tamilnadu</span>
+      <h5>Sri Rajagopala Swamy Temple</h5>
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <h4 style="margin: 0;">Mannargudi</h4>
+        <button onclick="showInfo12()"  class="info-button2">Info</button>
+      </div>
+  </div>
+</div>
+
+
+
+</div>
+
+
+<!-- Hidden content for Chennai -->
+<div id="chennaiInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/ekambareswarar,kanchi/ekmp_1.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/ekambareswarar,kanchi/ekmp_2.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/ekambareswarar,kanchi/ekmp_3.jfif" alt="San Thome Church" />
+        <img src="asset/img/Temples/ekambareswarar,kanchi/ekmp_4.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/ekambareswarar,kanchi/ekmp_5.png" alt="San Thome Church " />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Feature</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">Ekambareswarar Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">March to April</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">06:00 AM to 12:30 PM and 04:00 PM to 08:30 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;">Ambigapadeeswar temple, Kilambi, Tamil Nadu 631502</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">Kanchipuram bus station</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">The tallest is the southern tower, with 11 stories and a height of 58.5216 m (192 ft), making it one of the tallest temple towers in India. The temple has numerous shrines, with those of Ekambareswarar and the Vishnu shrine - Nilathingal Thundam Perumal (a Divyadesam) being the most prominent.
+          </td>
+      </tr>
+  </table>
+  <button onclick="hideInfo2()" class="close-button2" style="margin-top: 15px;">Close</button>
+</div>
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+<div id="mathuraiInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Madurai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/Meenakshi temple/Meenakshi Temple.jpeg" alt="San Thome Church" />
+        <img src="asset/img/Temples/Meenakshi,madurai/madhurai meena_1.jfif" alt="San Thome Church" />
+        <img src="asset/img/Temples/Meenakshi,madurai/madhurai meena_2.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/Meenakshi temple/Meenakshi Temple.jpeg" alt="San Thome Church" />
+        <img src="asset/img/Temples/Meenakshi temple/Meenakshi Temple.jpeg" alt="San Thome Church" />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">features</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">Meenakshi Amman Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">April to May</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">05:00 AM to 12:30 PM and 04:00 PM to 08:00 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;">47, E Avani Moola St, Madurai Main, Madurai, Tamil Nadu 625001</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">Arappalayam Bus Terminus</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">The Meenakshi Temple complex is literally a city one of the largest of its kind in India and undoubtedly one of the oldest too. The temple grew with the contribution of each dynasty and victorious monarchs, into an enormous complex extending over an area of 65000 Sq m.</td>
+      </tr>
+  </table>
+  <button onclick="hideInfo1()" class="close-button1" style="margin-top: 15px;">Close</button>
+</div>
+
+<!-- Overlay background -->
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+<div id="RameshwaramInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/Rameshwaram Temple/rames-1.webp" alt="San Thome Church" />
+        <img src="asset/img/Temples/Rameshwaram Temple/rames_2.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/Rameshwaram Temple/rames_3.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/Rameshwaram Temple/rames_4.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/Rameshwaram Temple/rames_5.jfif" alt="San Thome Church " />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Feature</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">Rameshwaram Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">October to April</td>
+      </tr>
+      <tr>ss
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">05:00 AM to 01:00 PM and 03:00 PM to 09:00 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;">78Q7+26J, Sandhana mariamman kovil St, Rameswaram, Tamil Nadu 623526</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">Rameshwaram bus station</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">imposing structure, majestic towers, intricate sculptural works and corridors</td>
+          </td>
+      </tr>
+  </table>
+  <button onclick="hideInfo3()" class="close-button4" style="margin-top: 15px;">Close</button>
+</div>
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+<div id="keelaperumpallamInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/nagannathaswamy/ngn_1.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/nagannathaswamy/ngn_2.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/nagannathaswamy/ngn_3.jfif" alt="San Thome Church" />
+        <img src="asset/img/Temples/nagannathaswamy/ngn_4.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/nagannathaswamy/ngn_5.jpg" alt="San Thome Church" />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">features</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">nagannathaswamy Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">February to March</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">06:00 AM to 01:00 PM and 04:00 PM to 08:00 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;">Near, Kezhaperumpallam, Thiruvengadu, Tamil Nadu 609105</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">kumpakonam bus stop</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">The temple is famous for first feeding of rice to infant children. Rahu and Ketu transition is celebrated every 2.5 years in the temple during planetary transition.</td>
+      </tr>
+  </table>
+  <button onclick="hideInfo4()" class="close-button4" style="margin-top: 15px;">Close</button>
+</div>
+
+<!-- Overlay background -->
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+</div>  
+    
+<div id="TanjavurInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/thanjai,brihadishwarar/thanjai-periya_1.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/thanjai,brihadishwarar/thanjai-periya_2.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/thanjai,brihadishwarar/thanjai-periya_3.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/thanjai,brihadishwarar/thanjai-periya_4.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/thanjai,brihadishwarar/thanjai-periya_5.jpg" alt="San Thome Church" />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">features</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">BrihadeeshWarar Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">September to October </td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">06:00 AM to 12:30 PM and 04:00 PM to 08:30 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;">Balaganapathy Nagar, Thanjavur, Tamil Nadu 613007</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">bus stop</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">Thanjavur Periya Koil is the grandest creation of Cholas and it is visible from any area in Thanjavur, perhaps the only temple with such a characteristic. This temple is part of the UNESCO World Heritage Site “Great Living Chola Temples”.</td>
+      </tr>
+  </table>
+  <button onclick="hideInfo5()" class="close-button5" style="margin-top: 15px;">Close</button>
+</div>
+
+<!-- Overlay background -->
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+<div id="KanyakumariInfo"style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/kumari amman temple/knk_1.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/kumari amman temple/knk_2.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/kumari amman temple/knk_3.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/kumari amman temple/knk_4.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/kumari amman temple/knk_2.jpg" alt="San Thome Church" />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">features</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">Kumari Amman Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">September to October and March to April</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">04:30 AM to 12:30 PM and 04:00 PM to 08:00 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;">3HH2+P9H, Temple Rd, Kanniyakumari, Tamil Nadu 629702</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">Kanyakumari bus stop</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">The main deity is the chaste Goddess Kanya Kumari whose idol is world-famous for its diamond nose ring that glows lustrously. The idol is created out of bluestone and faces the east direction.</td>
+      </tr>
+  </table>
+  <button onclick="hideInfo6()" class="close-button6" style="margin-top: 15px;">Close</button>
+</div>
+
+<!-- Overlay background -->
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+<div id="MahabalipuramInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/mahapalipuram shore/mhpl_1.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/mahapalipuram shore/mhpl_2.jfif" alt="San Thome Church" />
+        <img src="asset/img/Temples/mahapalipuram shore/mhpl_3.jfif" alt="San Thome Church" />
+        <img src="asset/img/Temples/mahapalipuram shore/mhpl_4.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/mahapalipuram shore/mhpl_5.jpg" alt="San Thome Church" />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">features</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">Mahabalipuram shore Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">November to Febraury</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">06:00 AM to 06:00 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;">J58V+JWW,Beach Rd,Mahabalipuram,Tamil Nadu 603104</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">Mahabalipuram bus stop</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">The Shore Temple is both a rock cut and a free-standing structural temple. The entire temple stands on a naturally occurring granite boulder. The complex consists of three separate shrines: two dedicated to the god Shiva, and one to Vishnu.</td>
+      </tr>
+  </table>
+  <button onclick="hideInfo7()" class="close-button7" style="margin-top: 15px;">Close</button>
+</div>
+
+<!-- Overlay background -->
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+<div id="TiruvannamalaiInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/arunachaleswarar ,thiruvannamalai/aruna_1.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/arunachaleswarar ,thiruvannamalai/aruna_2.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/arunachaleswarar ,thiruvannamalai/aruna_3.png" alt="San Thome Church" />
+        <img src="asset/img/Temples/arunachaleswarar ,thiruvannamalai/aruna_4.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/arunachaleswarar ,thiruvannamalai/aruna_5.jpg" alt="San Thome Church" />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">features</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">Arunachaleswarar Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">November to December</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">05:00 AM to 09:30 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;">Pavazhakundur,Tiruvannamalai,Annamalai R.F.,Tamil Nadu 606601</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">Tiruvannamalai central bus stop</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">The Agni Lingam in the temple symbolizes self-sacrifice, liberation, duty, and virtue. The Tiruvannamalai Arunachalam Temple is one of the four sacred places revered for obtaining salvation, as mentioned in Hindu sacred texts.</td>
+      </tr>
+  </table>
+  <button onclick="hideInfo8()" class="close-button8" style="margin-top: 15px;">Close</button>
+</div>
+
+<!-- Overlay background -->
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+<div id="MylaporeInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>  
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/kapaleeswarar,mylapore/kpl_1.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/kapaleeswarar,mylapore/kpl_2.jpg " alt="San Thome Church" />
+        <img src="asset/img/Temples/kapaleeswarar,mylapore/kpl_3.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/kapaleeswarar,mylapore/kpl_4.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/kapaleeswarar,mylapore/kpl_5.webp" alt="San Thome Church " />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Feature</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">Kabaleeswarar Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">March to April</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">05:00 AM to 12:00 PM and 04:00 PM to 09:00 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;">234, Ramakrishna Mutt Rd, Vinayaka Nagar Colony, Mylapore, Chennai, Tamil Nadu 600004</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;"> LUZ Corner Bus Station</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">Other noteworthy sights here include the bronze carvings of 63 Saivite saints or the Nayanars. The temple finds mention in the Thevaram hymns of renowned Shaivite saints named Saint Sambandar and Saint Appar. It also houses the sacred Punnai tree which is believed to be one of the oldest trees of Chennai.
+          </td>
+      </tr>
+  </table>
+  <button onclick="hideInfo9()" class="close-button9" style="margin-top: 15px;">Close</button>
+</div>
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+<div id="ChidambaramInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/natarajar temple,chidambaram/ntr_1.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/natarajar temple,chidambaram/ntr_2.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/natarajar temple,chidambaram/ntr_3.png" alt="San Thome Church" />
+        <img src="asset/img/Temples/natarajar temple,chidambaram/ntr_4.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/natarajar temple,chidambaram/ntr_5.jfif" alt="San Thome Church " />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Feature</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">Thillai Natarajar Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">December to January</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">06:00 AM to 12:00 PM and 05:00 PM to 10:00 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;"> Chidambaram,Tamil Nadu 608001</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">Chidambarm bus station</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">The most unique characteristic of the Nataraj Temple is the bejewelled image of Nataraj. The temple has five main Halls or Sabhas namely the Kanaka Sabha, the Cit Sabha, Nritta Sabha, Deva Sabha and Raja Sabha.
+          </td>
+      </tr>
+  </table>
+  <button onclick="hideInfo10()" class="close-button10" style="margin-top: 15px;">Close</button>
+</div>
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+
+<div id="SrirangamInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/renganatha swamy/rgn tem.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/renganatha swamy/rgn tem 5.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/renganatha swamy/rgn tem 2.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/renganatha swamy/rgn tem 3.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/renganatha swamy/rgn tem 4.jpg" alt="San Thome Church " />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Feature</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sri Ranganathaswamy Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">December to January</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">06:00 Am to 09:00Pm</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;">Srirangam,Tiruchirappalli,Tamil Nadu 620006</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">Srirangam/td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">Dedicated to Lord Vishnu, the ‘Ranganathaswamy Temple’ located on the Srirangam Island of the Tiruchirappalli city in Tamilnadu, is another masterpiece of Dravidian architecture. Spread across an area of over 150 acres, the temple has 49 sub-shrines and is dotted with 21 brilliantly carved Gopurams (tower gateways) with the main or the ‘RajaGopuram’ standing tall at 236 ft. making it the tallest Gopurams in Asia.
+          </td>
+      </tr>
+  </table>
+  <button onclick="hideInfo11()" class="close-button11" style="margin-top: 15px;">Close</button>
+</div>
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999;"></div>
+
+<div id="MannargudiInfo" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border: 2px solid #000; max-width: 90%; max-height: 90%; overflow-y: auto;">
+  <h3>Chennai Information</h3>
+  <div class="image-slider">
+    <div class="image-track">
+        <img src="asset/img/Temples/mannai peiya kovil/mng 1.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/mannai peiya kovil/mng 5.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/mannai peiya kovil/mng 3.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/mannai peiya kovil/mng 4.jpg" alt="San Thome Church" />
+        <img src="asset/img/Temples/mannai peiya kovil/mng4.webp" alt="San Thome Church " />
+        <!-- Add more images as needed -->
+    </div>
+  </div>  
+    <table style="width: 100%; border-collapse: collapse;">
+      <tr>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Feature</th>
+          <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2;">Details</th>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Name</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sri Rajagopala Swamy Temple</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Best Time to Visit</td>
+          <td style="border: 1px solid #000; padding: 8px;">March to April</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple opening days</td>
+          <td style="border: 1px solid #000; padding: 8px;">Sunday to Saturday</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Temple Timings</td>
+          <td style="border: 1px solid #000; padding: 8px;">06:00 AM to 12:30 PM and 04:30 PM to 09:00 PM</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Address</td>
+          <td style="border: 1px solid #000; padding: 8px;"> MC8V+VFM, Mannargudi, Tamil Nadu 614001</tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">Near by Bus station</td>
+          <td style="border: 1px solid #000; padding: 8px;">Mannargudi Bus stop</td>
+      </tr>
+      <tr>
+          <td style="border: 1px solid #000; padding: 8px;">speciality</td>
+          <td style="border: 1px solid #000; padding: 8px;">Located in the town of Mannargudi the divine temple of Rajagopala Swamy is one of the most popular shrines of Lord Krishna. The temple is also known as Guruvayoor by Hindus.It is one of the most popular vaishnavite temples in India.
+          </td>
+      </tr>
+  </table>
+  <button onclick="hideInfo12()" class="close-button12" style="margin-top: 15px;">Close</button>
+</div>
+
+ <footer>
+  <a href=""><h3>Follow Us </h3></a>
+  <h2>Hidden Heaven</h2>
+ </footer>
+    <script>
+      // pop up menu
+      setTimeout(myGreeting, 3000);
+      function myGreeting() {
+        document.getElementById("timeoutbanner").style.display = "flex";
+        document.getElementById('main').style.filter="blur(6px)";
+      }
+      document.getElementById("closeBtn").addEventListener("click", () => {
+        document.getElementById("timeoutbanner").style.display = "none";
+        document.getElementById('main').style.filter="none";
+      });
+    </script>
+    <script src="asset/script.js"></script>
+  </body>
+</html>
